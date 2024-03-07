@@ -1,6 +1,7 @@
 
 # WhatsApp Template Builder
 
+![Application Preview](docs/print.png)
 ## Overview
 
 This project is a marketing automation tool designed to intuitively design and customize marketing campaigns for interacting with customers via WhatsApp. It features a template builder and message preview, allowing users to create and visualize WhatsApp templates with ease.
