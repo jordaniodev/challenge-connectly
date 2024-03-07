@@ -1,8 +1,7 @@
-import { EditMessageBodyProps } from "./EditMessageBody.type";
 import "./EditMessageBody.scss";
 import { CardTip } from "../../../CardTip";
 import { useMessagePreview } from "../../../../hooks/MessagePreview/useMessagePreview";
-export const EditMessageBody = ({}: EditMessageBodyProps) => {
+export const EditMessageBody = () => {
 
   const { messagePreview, setTextContent } = useMessagePreview();
   const onChangeTextArea = (event: React.ChangeEvent<HTMLTextAreaElement>) => {

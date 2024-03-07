@@ -1,9 +1,8 @@
 
 import "./EditMessageFooter.scss";
 import { CardTip } from "../../../CardTip";
-import { EditMessageFooterProps } from "./EditMessageFooter.type";
 import { useMessagePreview } from "../../../../hooks/MessagePreview/useMessagePreview";
-export const EditMessageFooter = ({}: EditMessageFooterProps) => {
+export const EditMessageFooter = () => {
 
   const { messagePreview, setTextContent } = useMessagePreview();
   const onChangeTextArea = (event: React.ChangeEvent<HTMLTextAreaElement>) => {

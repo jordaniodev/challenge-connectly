@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { ButtonEditMessage } from "./EditMessageButton.type";
 import "./EditMessageButton.scss";
 import { useMessagePreview } from "../../../../hooks/MessagePreview/useMessagePreview";
 

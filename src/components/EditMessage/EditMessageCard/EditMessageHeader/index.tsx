@@ -2,10 +2,9 @@ import { FormControl, MenuItem, Select } from "@mui/material";
 import { CardTip } from "../../../CardTip";
 import "./EditMessageHeader.scss";
 import { useMessagePreview } from "../../../../hooks/MessagePreview/useMessagePreview";
-import { useState } from "react";
 
 export const EditMessageHeader = () => {
-  const { messagePreview, setImageHeader } = useMessagePreview();
+  const { setImageHeader } = useMessagePreview();
   
 
   const handleImageUpload = (event: React.ChangeEvent<HTMLInputElement>) => {

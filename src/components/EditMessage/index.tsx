@@ -1,5 +1,5 @@
 import { Button } from "../Button";
-import { EditMessageProps } from "./EditMessage.type";
+
 import "./EditMessage.scss";
 import { EditMessageCardProps } from "./EditMessageCard/EditMessageCard.type";
 import { EditMessageCard } from "./EditMessageCard/index";
@@ -10,7 +10,7 @@ import { EditMessageFooter } from "./EditMessageCard/EditMessageFooter";
 import { EditMessageButton } from "./EditMessageCard/EditMessageButton/index";
 import { useMessagePreview } from "../../hooks/MessagePreview/useMessagePreview";
 import { MessagePreview } from "../../hooks/MessagePreview/useMessagePreview.type";
-export const EditMessage = ({}: EditMessageProps) => {
+export const EditMessage = () => {
   const { messagePreview, setVisibleContent } = useMessagePreview();
 
   const onChangeValue = (
