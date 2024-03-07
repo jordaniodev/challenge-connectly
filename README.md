@@ -51,7 +51,7 @@ The application will be available at `http://localhost:3000`.
 
 ### Deployment
 
-This project is deployed on Netlify for easy access and demonstration purposes. Visit [https://challenge-connectly.netlify.app](#) to view the live application.
+This project is deployed on Netlify for easy access and demonstration purposes. Visit [Demo](https://challenge-connectly.netlify.app/) to view the live application.
 
 ## Testing
 
