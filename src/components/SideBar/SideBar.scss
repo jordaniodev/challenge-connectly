@@ -1,0 +1,48 @@
+.sidebar {
+  position: absolute;
+  left: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 56px;
+  background-color: #20232a;
+
+  .containerLogo,
+  .containerProfile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 72px;
+    border-bottom: 1px solid #616161;
+
+    img {
+      width: 26px;
+      cursor: pointer;
+      &.profile-image {
+        border-radius: 100px;
+      }
+    }
+  }
+
+  nav {
+    ul {
+      display: flex;
+      flex-direction: column;
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 56px;
+        height: 72px;
+        cursor: pointer;
+
+        &.active {
+          background-color: #000000;
+          border-right: 4px solid #007dff;
+          box-sizing: border-box;
+        }
+      }
+    }
+  }
+}

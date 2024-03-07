@@ -1,0 +1,29 @@
+.container-edit-message-header {
+  p {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 143%;
+    letter-spacing: 0.15px;
+    color: rgba(0, 0, 0, 0.54);
+    margin: 10px 0;
+  }
+
+  .upload-image-button {
+    cursor: pointer;
+    padding:4px 10px;
+    display: flex;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #007DFF;
+    font-weight: 700;
+    border-radius: 4px;
+    border: 1px solid #007DFF;
+    margin-bottom: 16px;
+  }
+}
